@@ -89,4 +89,5 @@ if __name__ == "__main__":
     maze = create_maze(dim)
     print(maze)
     path = find_path(maze)
+    print(path)
     draw_maze(maze, path)
