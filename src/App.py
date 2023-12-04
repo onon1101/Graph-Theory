@@ -8,7 +8,7 @@ from src.modules.display import DrawMaze
 
 def main():
     # the Maze size
-    dim = 20
+    dim = 5
 
     # create maze
     maze = Maze(dim)

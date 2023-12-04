@@ -109,7 +109,7 @@ class DrawMaze:
         ax.set_xticks([])
         ax.set_yticks([])
 
-        animate.save('dist/test.mp4', fps=30)
-        # animate.save('dist/test.gif')
+        # animate.save('dist/test.mp4', fps=30)
+        animate.save('dist/test.gif')
 
         plt.show()
