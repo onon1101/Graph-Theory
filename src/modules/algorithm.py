@@ -23,7 +23,8 @@ class Algorithm:
             for dx, dy in directions:
                 next_node = (node[0] + dx, node[1] + dy)
                 if (next_node == end):
-                    self.result = [(1 ,0),(1, 1)] + path + [next_node] + [(maze.shape[0] - 2, maze.shape[1] - 1)]
+                    # self.result = [(1 ,0),(1, 1)] + path + [next_node] + [(maze.shape[0] - 2, maze.shape[1] - 1)]
+                    self.result = path + [next_node] + [(maze.shape[0] - 2, maze.shape[1] - 1)]
                     return
                 if (next_node[0] >= 0 and next_node[1] >= 0 and
                         next_node[0] < maze.shape[0] and next_node[1] < maze.shape[1] and
